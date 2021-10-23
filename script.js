@@ -24,6 +24,7 @@ function submitForm(e) {
         return
     }
   }
-
+  error.style.display = "none";
+  errorMessage.style.display = "none";
   email.value = "";
 }
